@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Details about EFS">
+    <title>EVM File System (EFS)</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+      <img src="/images/efs-logo-transparent.png">
+      <h1>EVM File System</h1>
+    </header>
+  
+
+    <main>
+        <h2>Project overview</h2>
+        <p>EFS provides a schelling point for on-chain data and information.</p>
+        <p>EFS is an uncensorable shared file system powered by immutable smart contracts that are deployable to any Ethereum Virtual Machine (EVM) chain. The data is stored as a labeled property graph with nodes (e.g. addresses, contracts, DAOs, knowledge graph data) providing a versatile Key=Value list of information for others to view. Nodes can also have relationships (directed graph edges) with other nodes such as "subdirectory_of", "follows", and "comments".</p>
+        <p>Users can view EFS data via an immutable html/js/css progressive web app File Browser hosted on IPFS (and easily accessible via https://browse.evmfs.eth.limo). Applications can access the data through the EFS smart contract, The Graph, locally hosted nodes, etc.</p>
+        <h2>EFS's core features include:</h2>
+        <dl>
+            <dt>Topics</dt>
+            <dd>
+                A common place where users can attach relevant data about things, events, ideas, file hashes, etc. These are well known strings that can be used as a schelling point for easily discovering relevant information about something.
+            </dd>
+            <dt>Editions</dt>
+            <dd>
+                Provides the censorship resistence of EFS by allowing each user to provide their own version of the data for a topic.
+            </dd>
+            <dt>Hierarchical structure</dt>
+            <dd>
+                Nodes maintain a hierarchical structure similar to directories and subdirectories. Child nodes control their own data but may delegate some of their configuration to their parent node.
+            </dd>
+        </dl>
+    </main>
+
+    <footer class="menu">
+        <ul>
+            <li><a href="https://discord.gg/Erp3ZYDQBh" target="_blank"><img src="/images/discord-logo.png" alt="Discord"></a></li>
+            <li><a href="https://twitter.com/efs_project" target="_blank"><img src="/images/twitter-logo.png" alt="Twitter"></a></li>
+            <li><a href="https://github.com/efs-project" target="_blank"><img src="/images/github-logo.png" alt="GitHub"></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

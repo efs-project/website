@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: #00AB44;
+    font-family: sans-serif;
+    margin: 1em;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    font-size: larger;
+    border-left: thick solid #00AB44;
+    padding-left: 0.5em;
+}
+
+header, footer {
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 5px;
+}
+
+footer img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+main {
+    text-align: justify;
+    font-size: larger;
+    max-width: 40em;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+}
+
+dd {
+    margin-bottom: 1em;
+}
