@@ -5,6 +5,10 @@ body {
     margin: 1em;
 }
 
+a {
+    color: #00AB44;
+}
+
 h1 {
     margin: 0px;
 }
@@ -37,7 +41,7 @@ footer img {
 main {
     text-align: justify;
     font-size: larger;
-    max-width: 40em;
+    max-width: 50em;
     margin: auto;
 }
 
@@ -47,4 +51,8 @@ main h1 {
 
 dd {
     margin-bottom: 1em;
+}
+
+#overview-video {
+    text-align: center;
 }

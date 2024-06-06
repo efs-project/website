@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>EVM File System (EFS)</title>
+    <title>Ethereum File System (EFS)</title>
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
@@ -14,20 +14,20 @@
 <body>
     <header>
       <img src="./images/efs-logo-transparent.png" alt="EFS logo">
-      <h1>EVM File System</h1>
+      <h1>The Ethereum File System</h1>
     </header>
   
 
     <main>
         <h2>Project overview</h2>
-        <p>EFS provides a schelling point for on-chain data and information.</p>
-        <p>EFS is an uncensorable shared file system powered by immutable smart contracts that are deployable to any Ethereum Virtual Machine (EVM) chain. The data is stored as a labeled property graph with nodes (e.g. addresses, contracts, DAOs, knowledge graph data) providing a versatile Key=Value list of information for others to view. Nodes can also have relationships (directed graph edges) with other nodes such as "subdirectory_of", "follows", and "comments".</p>
-        <p>Users can view EFS data via an immutable html/js/css progressive web app File Browser hosted on IPFS (and easily accessible via https://browse.evmfs.eth.limo). Applications can access the data through the EFS smart contract, The Graph, locally hosted nodes, etc.</p>
+        <p>The Ethereum File System organizes user's information on topics and enables simple access to that on-chain data.</p>
+        <p>EFS is a credibly neutral public good providing an uncensorable shared file system powered by immutable smart contracts that are deployable to any Ethereum Virtual Machine (EVM) chain. The data is stored as <a href="https://attest.org/">Ethereum Attestation Service</a> attestations for easy interopability and extensibility.</p>
+        <p>Users can easily view EFS data via an immutable html/js/css progressive web app File Browser hosted on <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a> (and easily accessible via <a href="https://ens.domains/">ENS</a> at https://browse.evmfs.eth[.limo]). This web app and on-chain data is easily directly linked to from places like reddit, farcaster, and others with easy chain switching to accomodate the hundreds of L2/L3/etc networks we are all sharing. Applications can access the data through the EAS smart contracts, The Graph, locally hosted nodes, etc.</p>
         <h2>EFS's core features include:</h2>
         <dl>
             <dt>Topics</dt>
             <dd>
-                A common place where users can attach relevant data about things, events, ideas, file hashes, etc. These are well known strings that can be used as a schelling point for easily discovering relevant information about something.
+                A common place where users can attach relevant data about things, events, ideas, file hashes, etc. These are well known strings that can be used as a schelling point for easily discovering information about something.
             </dd>
             <dt>Editions</dt>
             <dd>
@@ -35,9 +35,14 @@
             </dd>
             <dt>Hierarchical structure</dt>
             <dd>
-                Nodes maintain a hierarchical structure similar to directories and subdirectories. Child nodes control their own data but may delegate some of their configuration to their parent node.
+                Topics maintain a hierarchical structure similar to directories and subdirectories which provide for easier discoverability of data.
+            </dd>
+            <dt>Tag based content</dt>
+            <dd>
+                Topics and data can relevant tags attached to make searching and complex data visualizations easier.
             </dd>
         </dl>
+        <p id="overview-video"><a href="https://www.youtube.com/watch?v=vMV1_Rt-GqE">Watch the EFS Overview video on YouTube</a></p>
     </main>
 
     <footer>
